@@ -5,5 +5,12 @@
         "node": "current"
       }
     }]
+  ],
+  "ignore": [
+    "node_modules",
+    "Demo_WDIO_Framework",
+    "babel.config.json",
+    "package.json",
+    "package-lock.json"
   ]
 }

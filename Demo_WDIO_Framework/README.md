@@ -18,3 +18,4 @@ To generate and view report run the folowing command
 ```
 npm run report
 ```
+
