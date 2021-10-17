@@ -1,6 +1,10 @@
-import chalk from "chalk";
-import _ from 'lodash';
-import prompt from 'prompt-sync';
+// import chalk from "chalk";
+// import _ from 'lodash';
+// import prompt from 'prompt-sync';
+
+const chalk = require('chalk');
+const _ = require('lodash');
+const prompt = require('prompt-sync');
 
 const error = chalk.bold.red;
 const warning = chalk.keyword('orange');
@@ -19,12 +23,17 @@ function countDividors(n) {
 }
 
 function numbersWith3Dividers(startNumber, endNumber) {
+    let obj = {};
     let numWith3Dividers = 0;
-    for (let number in _.range(startNumber, endNumber)) {
+    let range = _.range(startNumber, endNumber+1);
+    range.forEach((number) => {
+        console.log(number);
         if (countDividors(number) == 3) {
+            obj[number] = countDividors(number)
             numWith3Dividers++;
         }
-    }
+    })
+    console.log(obj);
     console.log(success(`There ${numWith3Dividers} dividors between ${startNumber} and ${endNumber}`));
 }
 
@@ -63,7 +72,7 @@ function main() {
         return;
     }
 
-    numbersWith3Dividers(startNumber, endNumber)
+    numbersWith3Dividers(parseInt(startNumber), parseInt(endNumber))
 }
 
 function validateData(value) {
