@@ -29,14 +29,19 @@ function countDividors(n) {
 }
 
 function numbersWith3Dividers(startNumber, endNumber) {
+  let obj = {};
   let numWith3Dividers = 0;
 
-  for (let number in _lodash.default.range(startNumber, endNumber)) {
+  let range = _lodash.default.range(startNumber, endNumber + 1);
+
+  range.forEach(number => {
+
     if (countDividors(number) == 3) {
+      obj[number] = countDividors(number);
       numWith3Dividers++;
     }
-  }
-
+  });
+  console.log(obj);
   console.log(success(`There ${numWith3Dividers} dividors between ${startNumber} and ${endNumber}`));
 }
 
@@ -80,7 +85,7 @@ function main() {
     return;
   }
 
-  numbersWith3Dividers(startNumber, endNumber);
+  numbersWith3Dividers(parseInt(startNumber), parseInt(endNumber));
 }
 
 function validateData(value) {

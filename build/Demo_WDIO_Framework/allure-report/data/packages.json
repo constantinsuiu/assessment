@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages",
+    "children" : [ {
+      "name" : "Given I navigate to SnipTech",
+      "uid" : "73bec64ec16cd5db",
+      "parentUid" : "3116560cd6bf86bbd4a6b04803c86f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634468964766,
+        "stop" : 1634468967094,
+        "duration" : 2328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "When I navigate to Join Us",
+      "uid" : "66d3a5ca4b09fe10",
+      "parentUid" : "3116560cd6bf86bbd4a6b04803c86f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634468967094,
+        "stop" : 1634468967205,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Then I see available jobs",
+      "uid" : "77b6eaab9947ceb",
+      "parentUid" : "3116560cd6bf86bbd4a6b04803c86f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634468967205,
+        "stop" : 1634468967246,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "When I navigate to Contact",
+      "uid" : "14f992a05f9d1ef4",
+      "parentUid" : "3116560cd6bf86bbd4a6b04803c86f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634468967246,
+        "stop" : 1634468967340,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Then I validate company address",
+      "uid" : "5f21096cfb7b730e",
+      "parentUid" : "3116560cd6bf86bbd4a6b04803c86f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634468967341,
+        "stop" : 1634468967358,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "",
+      "uid" : "c5ee0fe45aa93b86",
+      "parentUid" : "3116560cd6bf86bbd4a6b04803c86f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634468967359,
+        "stop" : 1634468967359,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    } ],
+    "uid" : "3116560cd6bf86bbd4a6b04803c86f4b"
+  } ],
+  "name" : "packages"
+}

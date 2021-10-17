@@ -1,0 +1,170 @@
+{
+  "uid" : "77b6eaab9947ceb",
+  "name" : "Then I see available jobs",
+  "fullName" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages.Then I see available jobs",
+  "historyId" : "d4e2e951d93557c41bdb9baa7d3a4a93",
+  "time" : {
+    "start" : 1634468967205,
+    "stop" : 1634468967246,
+    "duration" : 41
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1634468967206,
+        "stop" : 1634468967215,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5627c666dec4dd53",
+        "name" : "Request",
+        "source" : "5627c666dec4dd53.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "42a3738ec4c2eb17",
+        "name" : "Response",
+        "source" : "42a3738ec4c2eb17.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1634468967217,
+        "stop" : 1634468967222,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de53e9d39c344d33",
+        "name" : "Request",
+        "source" : "de53e9d39c344d33.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1634468967223,
+        "stop" : 1634468967229,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f6dde1b1bd67524",
+        "name" : "Request",
+        "source" : "3f6dde1b1bd67524.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "ddee4a07de28c1ca",
+        "name" : "Response",
+        "source" : "ddee4a07de28c1ca.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/4e7a6159-cf5a-4c8d-a767-efe302cb90ee/elements",
+      "time" : {
+        "start" : 1634468967232,
+        "stop" : 1634468967242,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2da8ad87658b78a6",
+        "name" : "Request",
+        "source" : "2da8ad87658b78a6.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "7aba766382062180",
+        "name" : "Response",
+        "source" : "7aba766382062180.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I see available jobs"
+  }, {
+    "name" : "package",
+    "value" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77b6eaab9947ceb.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

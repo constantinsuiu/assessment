@@ -1,10 +1,7 @@
-// import chalk from "chalk";
-// import _ from 'lodash';
-// import prompt from 'prompt-sync';
+import chalk from "chalk";
+import _ from 'lodash';
+import prompt from 'prompt-sync';
 
-const chalk = require('chalk');
-const _ = require('lodash');
-const prompt = require('prompt-sync');
 
 const error = chalk.bold.red;
 const warning = chalk.keyword('orange');
@@ -27,7 +24,6 @@ function numbersWith3Dividers(startNumber, endNumber) {
     let numWith3Dividers = 0;
     let range = _.range(startNumber, endNumber+1);
     range.forEach((number) => {
-        console.log(number);
         if (countDividors(number) == 3) {
             obj[number] = countDividors(number)
             numWith3Dividers++;

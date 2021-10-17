@@ -1,0 +1,66 @@
+{
+  "uid" : "c5ee0fe45aa93b86",
+  "name" : "",
+  "fullName" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages.",
+  "historyId" : "951f12003e61f7f1c2b1c85929988a3",
+  "time" : {
+    "start" : 1634468967359,
+    "stop" : 1634468967359,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages"
+  }, {
+    "name" : "testClass",
+    "value" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5c6232b1b5d8976e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634468964764,
+        "stop" : 1634468964766,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5ee0fe45aa93b86.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "985c3c3beccbb0ac00a1cb857aaf9fb1",
+    "name" : "Click around SnipTech website: As a visitor I can click around the Join Us and Contact pages",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

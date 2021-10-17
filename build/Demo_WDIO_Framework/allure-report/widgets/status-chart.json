@@ -1,0 +1,61 @@
+[ {
+  "uid" : "c5ee0fe45aa93b86",
+  "name" : "",
+  "time" : {
+    "start" : 1634468967359,
+    "stop" : 1634468967359,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77b6eaab9947ceb",
+  "name" : "Then I see available jobs",
+  "time" : {
+    "start" : 1634468967205,
+    "stop" : 1634468967246,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f21096cfb7b730e",
+  "name" : "Then I validate company address",
+  "time" : {
+    "start" : 1634468967341,
+    "stop" : 1634468967358,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f992a05f9d1ef4",
+  "name" : "When I navigate to Contact",
+  "time" : {
+    "start" : 1634468967246,
+    "stop" : 1634468967340,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66d3a5ca4b09fe10",
+  "name" : "When I navigate to Join Us",
+  "time" : {
+    "start" : 1634468967094,
+    "stop" : 1634468967205,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73bec64ec16cd5db",
+  "name" : "Given I navigate to SnipTech",
+  "time" : {
+    "start" : 1634468964766,
+    "stop" : 1634468967094,
+    "duration" : 2328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
